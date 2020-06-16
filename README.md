@@ -8,6 +8,8 @@
 - 線上使用者指示
 - 保存聊天紀錄(伺服端)
 
+已在heroku部屬:[http://f-chat-room.herokuapp.com](http://f-chat-room.herokuapp.com)
+
 ### 為什麼不用websocket
 
 ~~因為我喜歡裝逼~~
