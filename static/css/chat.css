@@ -1,0 +1,45 @@
+.container {
+    display: table;
+}
+
+.t-row {
+    display: table-row;
+}
+
+.t-col {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 5px;
+}
+
+
+#chatbox {
+    height: 75vh;
+    width: 300px;
+    border: 1px solid;
+    padding: 5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+form {
+    margin-top: 5px;
+}
+
+form > span {
+    display: block;
+    padding-right: 5px;
+    overflow: hidden;
+}
+
+#msg, #sendbtn {
+    box-sizing: border-box;
+}
+
+#msg {
+    width: 100%;
+}
+
+#sendbtn {
+    float: right;
+}

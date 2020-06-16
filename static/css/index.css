@@ -1,0 +1,17 @@
+div.center {
+    width: 50%;
+    margin: 0 auto;
+}
+
+h1.center {
+    text-align: center;
+}
+
+.err {
+    color: red;
+    visibility: hidden;
+}
+
+.hidden {
+    visibility: hidden;
+}

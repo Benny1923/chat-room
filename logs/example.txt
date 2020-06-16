@@ -1,0 +1,2 @@
+YYYY/mm/dd hh:mm:ss ip        username massage
+2020/06/05 13:33:22 127.0.0.1 username messagehere

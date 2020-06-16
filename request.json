@@ -1,0 +1,13 @@
+// when message
+{
+    "status": "send",
+    "message": "Hello World!"
+}
+// when someone join
+{
+    "status": "join"
+}
+// when waiting
+{
+    "status": "wait"
+}

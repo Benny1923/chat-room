@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聊天室</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="center">
+        <h1 class="center">歡迎使用聊天室</h1>
+        <form id="newchat" action="/join" method="post" >
+            <p>請先輸入你的暱稱:</p>
+            <input type="text" name="user" />
+            <span id="emptyuser" class="err">請輸入使用者名稱</span>
+            <p>然後，你可以:</p>
+            <div class="options">
+                <input type="submit" value="加入現有的聊天室" onclick="return jchat();" />
+                <p>或者</p>
+                <input type="submit" value="建立一個新聊天室" name="create" onclick="return check();" />
+            </div>
+            <div id="cidbox" class="options hidden">
+                <p>輸入聊天室ID:</p>
+                <input type="text" name="chatid">
+                <span id="emptychatid" class="err">請輸入聊天室ID</span>
+                <input type="submit" value="加入聊天室" name="join" onclick=" return joinchat();">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
